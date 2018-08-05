@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "jazda": "./node_modules/.bin/webpack",
+    "dev": "./node_modules/.bin/webpack-dev-server --hot --inline",
+    "andy": "./node_modules/.bin/webpack js/app.js --output js/out.js"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "gsap": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "dev": "^0.1.3",
+    "save": "^2.3.2"
+  }
+}
